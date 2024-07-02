@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamento de Neurología</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet"href="../css/departamentos.css">
+    <link rel="icon" type="image/png" href="../imagenes/madrid.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384">
+    <script src="https://kit.fontawesome.com/e3d46192fc.js" crossorigin="anonymous"></script>
+    <script src="../js/flipimg.js"></script>
+</head>
+<body>
+    <header id="cabecera">
+        <img src="../imagenes/hospital.png" class="image2"/>
+        <h1>Departamento de Neurología</h1>
+    </header>
+    <nav class="navegacion">
+        <a href="../index.html"><img src="../imagenes/hospital 2.png" title="Inicio" class="hospital"/></a>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Departamentos</a>
+                <ul class="sumenu">
+                    <li><a href="../html/oncologia.html">Oncología</li></a>
+                    <li><a href="../html/cardiologia.html">Cardiología</li></a>
+                    <li><a href="../html/traumatologia.html">Traumatología</li></a>
+                    <li><a href="../html/neurologia.html">Neurología</li></a>
+                </ul>
+            </li>
+            <li><a href="#">Información</a>
+                <ul class="sumenu">
+                    <li><a href="../html/calculadora.html">Calculadora</a></li>
+                    <li><a href="../html/horarios_ubicacion.html">Horarios y Ubicación</li></a>
+                    <li><a href="../html/imagenescentro.html">Imagenes del Centro</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/formulario2.html">Portal del Paciente</a></li>
+        </ul>
+        <a href="../html/formulariofina.html"><img src="../imagenes/boton_registro.png" class="boton_registro"/></a>
+        </nav>
+        <main>
+    <section class="descripcion">
+        <h3 class="h3">Descripción</h3>
+        <p>
+            El departamento de neurología del Hospital Felipe VI es responsable de la evaluación, diagnóstico y tratamiento de pacientes con problemas del sistema nervioso. Nuestro equipo de médicos y personal médico altamente calificados garantizan un tratamiento rápido a los pacientes.
+        </p>
+    </section>
+
+    <section class="servicios">
+        <h3 class="h3">Servicios</h3>
+        <ul>
+            <li>Diagnóstico trastornos neurológicos</li>
+            <li>Tratamiento y Evaluación accidentes cerebrovasculares</li>
+            <li>Tratamiento de TDA/TDAH</li>
+            <li>Tratamiento de epilepsia</li>
+            <li>Tratamiento y Diagnóstico de demencia</li>
+            <li>Tratamiento de Parkinson</li>
+            <li>Diagnóstico neurología general</li>
+        </ul>
+    </section>
+    <h3 class="h3" id="h3">Nuestros profesionales</h3>
+    <details open class="chatbotrobot">
+        <summary><img src="../imagenes/CBOT.png" class="imagenchatbot" onclick="openchatbot()"/></summary>
+        <div class="chatbot" id="chat-contenedor">
+            <div id="chat-mensaje"></div>
+            <input type="text" id="usuario-input" placeholder="Escribe un mensaje...">
+            <button id="boton-enviar" onclick="sendMessage()">Enviar</button>
+        </div>
+    </details>
+    <div class="cardiologos">
+        <div class="c1">
+            <img src="../imagenes/doctor_1.jpg" draggable="false" onmouseover="flip10()" onmouseout="flipout10()" id="neurologo1"/>
+            <p>Dr. Fran Gonzalez</td><br>Trastornos neurológicos</p>      
+
+        </div>
+        <div class="c2">
+            <img src="../imagenes/doctor_2.jpeg" draggable="false" onmouseover="flip11()" onmouseout="flipout11()" id="neurologo2">
+            <p>Dr. Fernando Alonso<br>Accidentes cerebrovasculares</p>
+        </div>
+        <div class="c3">
+            <img src="../imagenes/doctor_3.jpeg" draggable="false" onmouseover="flip23()" onmouseout="flipout23()" id="neurologo4">
+            <p>Dr. Antonio Herrero <br>Neurología general</p>
+        </div>
+        <div class="c4">
+            <img src="../imagenes/c9.jpg" draggable="false" onmouseover="flip24()" onmouseout="flipout24()" id="neurologo5">
+            <p>Dra. Ana Sánchez<br>Epilepsia</p>
+        </div>
+        <div class="c5">
+            <img src="../imagenes/c7.jpg" draggable="false" onmouseover="flip25()" onmouseout="flipout25()" id="neurologo6">
+            <p>Dr. Carlos Rodríguez<br>Demencia</p>
+        </div>
+        <div class="c6"> 
+            <img src="../imagenes/c10.jpg" draggable="false" onmouseover="flip12()" onmouseout="flipout12()" id="neurologo3">
+            <p>Dra. Carla Fernández<br>Parkinson</p>
+        </div>
+    </div><br><br>
+</main>
+<script src="../js/chatb.js"></script>
+    <footer class="footer">
+        <div class="cont">
+        <div class="fila">
+        <div class="contenedor">
+                <h4>Nuestras Páginas y Contactos</h4>
+                <ul>
+                    <li><a href="../html/horarios_ubicacion.html">Información</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../html/formulario2.html">Portal del Paciente</a></li>
+                    <li><a href="../html/imagenescentro.html">Imagenes del Centro</a></li>
+                </ul>
+            </div>
+            <div class="contenedor">
+                <h4>Página de la Comunidad de Madrid</h4>
+                    <ul>
+                        <li><a href="https://www.bocm.es/">BOCM</a></li>
+                        <li><a href="https://www.comunidad.madrid/servicios/salud">Salud</a></li>
+                        <li><a href="https://www.comunidad.madrid/servicios/atencion-ciudadano">Atención al Ciudadano</li>
+                        <li><a href="https://sede.comunidad.madrid/buscador?t=&tipo=All&consejeria=All&estado_pendiente%5B1%5D=1&estado_plazo%5B1%5D=1&estado_tramitacion%5B1%5D=1">Búscador de trámites</a></li>
+                    </ul>
+            </div>
+            <div class="contenedor">
+                <h4>Página del Estado</h4>
+                <ul>
+                    <li><a href="https://www.sanidad.gob.es/">Ministerio de Sanidad</li></a>
+                    <li><a href="https://boe.es/">BOE</li></a>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="redessociales">
+            <ul>
+                <li><a href="https://es-es.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://es.linkedin.com/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+    </div>
+        <div class="parrafos">
+            <p>Teléfono: +34 911 23 45 42</p>
+            <a href="mailto:neurologia@hospitalfelipeVI.org?subject=Neurología&body="><p>Correo: neurologia@hospitalfelipeVI.org</p></a>
+        </div>
+        </footer>
+
+</body>
+</html>
